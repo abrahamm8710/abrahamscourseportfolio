@@ -1,0 +1,32 @@
+* {
+  box-sizing: border-box;
+}
+
+/* Body Stling */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: blue;
+    margin: 0%;
+    padding: 0cqi;
+}
+
+/* card class */
+.card {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 48px;
+    background-color: black;
+    border: cyan;
+}
+
+.card h1 {
+    color: crimson;
+    font-size: larger;
+    margin: 16px;
+}
+
+.card p {
+    color: crimson;
+    font-size: large;
+    margin-top: auto;
+}
