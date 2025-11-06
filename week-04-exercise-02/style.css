@@ -1,0 +1,105 @@
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    min-height: 100vh;
+    margin: 0;
+}
+
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    line-height: 2;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 32px 0;
+    background-color: #fca504d7;
+}
+
+main {
+    max-width: 1200px;
+    width: 90%;
+    padding: 16px;
+    border: 6px solid rgba(14, 2, 70, 0.25);
+}
+
+h1 {
+    font-weight: normal;
+    font-size: 43px;
+    line-height: 1em;
+    margin-top: 48px;
+    margin-bottom: 48px;
+    text-align: center;
+    color: blue;
+    }
+
+main>p {
+    margin-bottom: 32px;
+    text-align: center;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.collection-grid {
+    margin: 48px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: auto;
+    }
+
+.collection-card {
+    border: 4px solid rgba(43, 9, 235, 0.877);
+    background-color: #0e8a2d;
+    padding: 16px;
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1 1 300px
+}
+
+.collection-card img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border: 3px solid rgba(22, 173, 243, 0.897);
+    margin-bottom: 16px;
+}
+
+.collection-card h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 8px;
+    line-height: 1.2;
+}
+
+.collection-card .details {
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.6);
+    margin-bottom: 16px;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.collection-card .description {
+    font-size: 16px;
+    margin-bottom: 0;
+    line-height: 1.6;
+}
+
+@media (min-width: 480px) {
+    .collection-card { 
+        flex-basis: 45%;
+        margin-right: 5%;
+    }
+}
+
+@media (min-width: 1024px) {
+    .collection-card {
+        flex-basis: 30%;
+        margin-right: 3%;
+    }
+}
