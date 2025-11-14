@@ -54,17 +54,31 @@ h5 {
     font-size: 1.5em;
     background-color: orange;
     border-radius: 4px;
+    margin-bottom: 4px;
 }
 
 nav ul {
     display: flex;
     justify-content: space-between;
     list-style: none;
-}
+ }
 
 section {
     font-size: 18px;
     margin-bottom: 40px;
+}
+
+.card {
+    box-shadow: 0 4px 4px 0 red;
+    transition: 0.3s;
+}
+
+.card:hover {
+    box-shadow: 1px 1px coral;
+}
+
+.container {
+    padding: 2px 4px;
 }
 
 
