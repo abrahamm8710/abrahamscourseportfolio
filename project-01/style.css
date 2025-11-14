@@ -1,5 +1,5 @@
 * {
-    margin: 1;
+    margin: 2;
     padding: 1;
     box-sizing: border-box;
 }
@@ -27,8 +27,50 @@ h1 {
 h2 {
     display: flex;
     justify-content: center;
-    background-color:orange
+    background-color:rgb(15, 216, 15);
+    border-radius: 4px;
 }
+
+h3 {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(15, 216, 15);
+    border-radius: 4px;
+    font-size: 1.5em;
+}
+
+h4 {
+    display: flex;
+    justify-content: center;
+    font-size: 1.5em;
+    background-color:rgb(15, 216, 15);
+    border-radius: 4px;
+}
+
+h5 {
+    display: flex;
+    justify-content: center;
+    font-size: 1.5em;
+    background-color: orange;
+    border-radius: 4px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+section {
+    font-size: 18px;
+}
+
+
+
+
+
+
+
 
 
 
@@ -54,7 +96,10 @@ h2 {
 footer {
     color:black;
     background-color:whitesmoke;
-    text-align: center;         
+    text-align: center;
+    padding: 25px;
+    margin: 1px;  
+    font-size: 2em;
 }
 
 footer a {
@@ -65,4 +110,6 @@ footer a {
 
 footer a:hover {
     color: chartreuse;
+    
 }
+
