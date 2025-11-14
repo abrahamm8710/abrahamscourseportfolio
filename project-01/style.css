@@ -76,6 +76,7 @@ section {
     justify-content: center;
     flex-wrap: wrap;
     margin-top: 100px;
+    gap: 15px;
 }
 
 .card {
@@ -83,7 +84,7 @@ section {
     background-color: brown;
     margin:10px;
     transition: 0.5s ease;
-}
+    }
 
 .card:hover{
     transform: translateY(-10px);
@@ -120,6 +121,9 @@ section {
     margin-bottom: 10px;
 
 }
+
+
+
 
 
 
