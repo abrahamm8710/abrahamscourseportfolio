@@ -1,3 +1,7 @@
+.root {
+    background-color:cornflowerblue; 
+}
+
 * {
     margin: 2;
     padding: 1;
