@@ -92,15 +92,15 @@ code {
 .nav-simple a {
   display: block;
   padding: 8px 16px;
-  color: #0066CC;
+  color: pink;
   text-decoration: none;
   background-color: #fafafa;
-  border: 1px solid rgba(0, 0, 0, 0.25);
+  border: 2px solid rgba(0, 0, 0, 0.25);
   transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 .nav-simple a:hover {
-  background-color: #0066CC;
+  background-color: green;
   color: #ffffff;
 }
 
@@ -140,22 +140,60 @@ code {
 }
 
 .nav-horizontal a:hover {
-  color: #0066CC;
+  color: #e49c17;
 }
 
 .nav-horizontal+main {
   margin-top: 80px;
 }
 
-.nav-custom {}
+.nav-custom {
+  justify-content: space-between;
+  background-color: #c04833;
+  color: red;
+  
+  
+ 
+  
+}
+.nav-custom a {
 
-.nav-custom ul {}
+  display: block;
+  padding: 8px 16px;
+  color: pink;
+  text-decoration: none;
+  background-color: blue;
+  border: 2px solid rgba(0, 0, 0, 0.25);
+  transition: background-color 0.3s ease, color 0.3s ease;
 
-.nav-custom li {}
+}
 
-.nav-custom a {}
+.nav-custom ul {
+  background-color: #c04833;
+  list-style: none;
+  margin: 0;
+  padding: 1;
+  
+  
+  
+  
+}
 
-.nav-custom a:hover {}
+.nav-custom li {
+  color: aqua;
+  
+
+  
+  
+}
+
+
+
+.nav-custom a:hover {
+   background-color: green;
+  color: #ffffff;
+  display: block;
+}
 
 @media (width >=480px) {}
 
