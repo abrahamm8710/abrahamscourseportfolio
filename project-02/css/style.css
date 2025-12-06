@@ -1,0 +1,19 @@
+.root {
+    background-color:cornflowerblue; 
+}
+
+* {
+    margin: 2;
+    padding: 1;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: var(--text-color);
+}
+
+body {
+    background-color: cornflowerblue;
+    line-height: 1.4;
+}
