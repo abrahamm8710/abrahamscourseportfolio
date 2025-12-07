@@ -258,7 +258,11 @@ section {
     font-size: 0.9rem;
     color:#875
 }
-
+.code44 p {
+display: flex;
+justify-content: center;
+font-size: larger;
+}
 
 
 
