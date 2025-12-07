@@ -225,7 +225,39 @@ section {
     border: 10px solid #0e0d0d;
 }
 
+.experience-section {
+    padding: 10px;
+    background-color: darkslateblue;
+    border-radius: 8px;
+    margin: 20px 0;
+}
 
+.experience-item {
+    background-color: #fff;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(red, green, blue, alpha);
+}
+
+.experience-item h2 {
+    color: #333;
+}
+
+.experience-item ul {
+    list-style: square;
+    padding-left: 15px;
+}
+
+.experience-item p {
+    font-size: 1rem;
+    color: #444;
+}
+
+.experience-item ul li {
+    font-size: 0.9rem;
+    color:#875
+}
 
 
 
