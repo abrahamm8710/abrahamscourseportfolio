@@ -259,6 +259,10 @@ section {
     font-size: 0.9rem;
     color:#875
 }
+.My-Skills {
+    display: flex;
+    justify-content: center;
 
+}
 
 
