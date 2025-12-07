@@ -44,3 +44,31 @@ h1 {
     text-align: center;
 }
 
+.game-shapes{
+    position: relative;
+    width: 100px;
+    height: 250px;
+    overflow: hidden;
+    margin-top: 40px;
+}
+.game-shapes span {
+    position: absolute;
+    width:50px;
+    height:50px;
+    background: rgba(red, green, blue, alpha);
+    backdrop-filter: blur(4px);
+    border-radius: 6px;
+    animation: Shapes 10s infinite ease-in-out;
+}
+
+
+
+
+
+
+@keyframes Shapes {
+    0%   {transform: translate(0) rotate(0deg);}
+    50%  {transform: translate(-15px) rotate(5deg);}
+    100% {transform: translate(0) rotate(0deg);}
+}
+
