@@ -223,6 +223,7 @@ section {
     font-weight: 16px;
     padding: 5px;
     border: 10px solid #0e0d0d;
+    background-color: chartreuse;
 }
 
 .experience-section {
@@ -257,11 +258,6 @@ section {
 .experience-item ul li {
     font-size: 0.9rem;
     color:#875
-}
-.code44 p {
-display: flex;
-justify-content: center;
-font-size: larger;
 }
 
 
