@@ -204,6 +204,7 @@ section {
 .project-card p {
     margin-top: 10px;
     font-size: 15px;
+    
 }
 
 
@@ -212,4 +213,8 @@ section {
     background-color: rgb(212, 159, 14);
 }
 
+.p {
+    text-align: center;
+    font-size: large;
+}
 
