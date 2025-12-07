@@ -43,3 +43,10 @@ h1 {
 .media-item{
     text-align: center;
 }
+
+.footer-decoration{
+    width: 100%;
+    height: 150px;
+    background: linear-gradient(#0654a3, #0654a3) bottom/100% 50% no repeat,
+                radial-gradient(circle at 50% -80px, transparent 100px, #0654a3 100px);
+}
