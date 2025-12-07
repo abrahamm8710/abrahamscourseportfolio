@@ -263,6 +263,8 @@ section {
     display: flex;
     justify-content: center;
 
+}.My-Skills li {
+    list-style: circle;
 }
 
 
