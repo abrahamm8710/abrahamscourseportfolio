@@ -173,12 +173,11 @@ section {
 .project-container {
     display:flex;
     justify-content: center;
-    align-items: flex-start;
     flex-wrap: wrap;
     gap: 40px;
     width: 100%;
-    padding: 40px 0;
-    box-sizing: border-box;
+    
+    
 }
 .project-card {
     background: grey;
